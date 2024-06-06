@@ -227,5 +227,7 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
-        - --ignore=no_check*
-        - --exclude=.*
+        args:
+          - --ignore=no_check*
+          - --exclude=.*
+
