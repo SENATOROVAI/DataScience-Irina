@@ -227,5 +227,3 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
-
-
