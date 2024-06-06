@@ -228,6 +228,6 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
         args:
-          - --ignore=no_check*
+          - --ignore=*no_check*
 
 
